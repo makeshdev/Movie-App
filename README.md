@@ -1,8 +1,20 @@
-# React + Vite
+# Movie Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a simple web application that allows users to search for movies using The Movie Database (OMDB) API. Users can search by keyword, filter movies by genre, and sort results based on popularity, rating, or release date.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+  - React: JavaScript library for building user interfaces.
+  - Tailwind css: Frontend framework for building responsive and mobile-first websites.
+  - Axios: Promise-based HTTP client for making API requests.
+  - OMDB API: Utilizes OMDb API for fetching movie data.
+
+## Usage
+
+  - Enter the title of the movie you want to search for in the provided search bar.
+  - As you type, the app will dynamically display matching results.
+  - Include a dropdown filter which filters the movies based on their type.
+  - Click on a movie to view detailed information about it.
+  - Enjoy exploring and discovering new movies!
